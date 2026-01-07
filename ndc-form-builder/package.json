@@ -1,0 +1,26 @@
+{
+  "name": "@khamphamoi/form-builder",
+  "version": "0.0.1",
+  "description": "A form builder library for React applications.",
+  "author": "Ngo Dinh Cuong",
+  "license": "MIT",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "react": ">=17"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.7",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  }
+}
