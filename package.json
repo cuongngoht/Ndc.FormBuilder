@@ -1,6 +1,6 @@
 {
   "name": "@khamphamoi/form-builder",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A form builder library for React applications.",
   "author": "Ngo Dinh Cuong",
   "license": "MIT",

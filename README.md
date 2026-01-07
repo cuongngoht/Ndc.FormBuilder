@@ -269,12 +269,12 @@ when<Form>(/* condition */)
 Group fields into sections:
 
 ```typescript
-import { PTSection } from "@khamphamoi/form-builder";
+import { NdcSection } from "@khamphamoi/form-builder";
 
-<PTSection<Form> name="billing" label="Billing Address">
+<NdcSection<Form> name="billing" label="Billing Address">
   <StreetField />
   <CityField />
-</PTSection>;
+</NdcSection>;
 
 // Hide entire section
 when<Form>((values) => v(values, (x) => x.sameAsShipping))

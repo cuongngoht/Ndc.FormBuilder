@@ -7,7 +7,7 @@ export type NDCSectionProps<TShape> = {
     children: React.ReactNode;
 };
 
-export function PTSection<TShape>({
+export function NdcSection<TShape>({
     name,
     label,
     children,
