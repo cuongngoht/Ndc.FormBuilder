@@ -1,6 +1,6 @@
 {
   "name": "@khamphamoi/form-builder",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A form builder library for React applications.",
   "author": "Ngo Dinh Cuong",
   "license": "MIT",
@@ -22,5 +22,13 @@
     "@types/react": "^19.2.7",
     "tsup": "^8.5.1",
     "typescript": "^5.9.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cuongngoht/Ndc.FormBuilder.git"
+  },
+  "homepage": "https://github.com/cuongngoht/Ndc.FormBuilder#readme",
+  "bugs": {
+    "url": "https://github.com/cuongngoht/Ndc.FormBuilder/issues"
   }
 }

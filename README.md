@@ -51,7 +51,7 @@ when<Form>((values) => v(values, (x) => x.country) === "US")
 ### Basic Form (v0)
 
 ```typescript
-import { NdcForm, useFormField } from "@ndc/form-builder";
+import { NdcForm, useFormField } from "@khamphamoi/form-builder";
 
 type LoginForm = {
   email: string;
@@ -93,7 +93,7 @@ function App() {
 ### Conditional Form (v1)
 
 ```typescript
-import { NdcForm, when, v } from "@ndc/form-builder";
+import { NdcForm, when, v } from "@khamphamoi/form-builder";
 
 type ShippingForm = {
   country: string;
@@ -269,7 +269,7 @@ when<Form>(/* condition */)
 Group fields into sections:
 
 ```typescript
-import { PTSection } from "@ndc/form-builder";
+import { PTSection } from "@khamphamoi/form-builder";
 
 <PTSection<Form> name="billing" label="Billing Address">
   <StreetField />
